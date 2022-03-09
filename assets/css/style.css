@@ -12,6 +12,7 @@
   width: 80%;
   height: 80%;
   background-color: aquamarine;
+  
 }
 
 .white{
@@ -21,20 +22,60 @@
 .gray{
   background-color: #f6f6f6;
 }
+
+.button {
+  padding: 10px;
+  border-radius: 50px;
+  background-color: white;
+  text-decoration: none;
+}
 /* HEADER */
 
 nav{
   width: 100%;
   height: 100px;
-  background-color: #4e44ff;
+  background-color: #255ee9;
 }
 
 .jumbotron{
-  width: 100%;
+  position: relative;
   height: 500px;
-  background-color: #522dfa;
+  margin-bottom: 100px;
+  background-image: url(../img/jumbo.png);
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  color: white;
 }
 
+.jumbotron .text-jumb {
+  position: absolute;
+  width: 50%;
+  padding-left: 50px;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1{
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.jumbo-but{
+  margin-top: 30px;
+}
+.jumbo-but li{
+  display: inline-block;
+  list-style: none;
+  color: black;
+  margin-right: 20px;
+}
+
+.jumbo-but li a {
+
+}
 
 /* MAIN */
 
