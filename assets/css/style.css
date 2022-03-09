@@ -2,7 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 
 /* UTILITIES */
 
@@ -10,9 +12,13 @@
   margin: auto;
   text-align: center;
   width: 80%;
-  height: 80%;
-  background-color: aquamarine;
   
+}
+
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
 }
 
 .white{
@@ -29,12 +35,52 @@
   background-color: white;
   text-decoration: none;
 }
+
+.button:hover{
+  color: #255ee9;
+  }
 /* HEADER */
+
+
 
 nav{
   width: 100%;
-  height: 100px;
+  height: 80px;
   background-color: #255ee9;
+  
+}
+
+nav .logo{
+  float: left;
+  margin-top: 15px;
+}
+
+.accedi{
+  float: right;
+  display: inline-block;
+  color: black;
+  margin-top: 10px;
+}
+
+.accedi:hover{
+color: #255ee9;
+}
+
+nav ul li {
+  display: inline-block;
+  padding-right: 15px;
+  list-style: none;
+  margin: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+  color: black;
 }
 
 .jumbotron{
@@ -73,8 +119,9 @@ h1{
   margin-right: 20px;
 }
 
-.jumbo-but li a {
-
+.jumbo-but .black-but{
+  background-color: #23272a;
+  color: white;
 }
 
 /* MAIN */
