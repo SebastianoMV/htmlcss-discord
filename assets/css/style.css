@@ -80,7 +80,7 @@ nav{
   
 }
 
-nav .logo{
+.logo{
   float: left;
   margin-top: 15px;
 }
@@ -92,7 +92,7 @@ nav .logo{
   margin-top: 10px;
 }
 
-.accedi:hover{
+.button:hover{
 color: #255ee9;
 }
 
@@ -109,8 +109,7 @@ nav ul li a {
 }
 
 ul li a:hover {
-  text-decoration: underline;
-  color: black;
+  color: #23272a;
 }
 
 .jumbotron{
@@ -158,7 +157,7 @@ section{
 
 }
 
-h3{
+.star{
   display: inline-block;
   background-image: url(../img/stars.svg);
   padding: 30px;
@@ -174,14 +173,67 @@ h3{
 
 /* FOOTER */
 
+
+
 footer{
   width: 100%;
-  height: 500px;
   background-color: #23272a;
+  padding-top: 30px;
+  color: white;
 }
 
-col-footer-big{
-  width: 100px;
+.col-footer-big{
+  width: 32%;
+}
+
+.col-footer{
+ width: 17%;
+}
+
+.text-indaco{
+  color: #8b9fe0;
+}
+
+footer ul{
+  list-style: none;
+  color: white;
+}
+
+footer ul li{
+  margin-bottom: 5px;
+}
+
+footer ul li a{
+  text-decoration: none;
+  color: white;
+
+}
+footer ul li a:hover {
+  color: #255ee9;
+}
+
+.border {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #8b9fe0;
+}
+
+.ita{
+  margin-top: 30px;
+  width: 25px;
+}
+
+.fa-brands{
+  margin-top: 20px;
+  margin-right: 15px;
+  font-size: 20px;
+}
+
+.undrefoot{
   height: 100px;
-  background-color: white;
+  padding-top: 15px;
+}
+
+.registrati{
+  float: right;
 }
